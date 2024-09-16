@@ -1,6 +1,7 @@
 const sendChatBtn =document.querySelector(".chat-input span");
 const chatInput =document.querySelector(".chat-input textarea");
-const Chatbox=document.querySelector(".Chatbox")
+const Chatbox=document.querySelector(".Chatbox");
+const ChatToggler=document.querySelector(".Chatbot-toggler");
 let userMessege;
 
 const API_KEY ="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";
@@ -8,9 +9,10 @@ const API_KEY ="sk-proj-A6hu-G2jCg8Jmhg5zlW5cBfYCpG5wd2BdtpzWnd7NFy1OL9dfoy95uZU
 const createChatLi =(message ,className) =>{
     const chatLi =document.createElement("li")
     chatLi.classList.add("chat",className);
-    let ChatContent =className === "outgoing" ?' <p>${message}</p> ':
-       ' <span class="material -symbols-outlined">smart_toy</span><p>${message}</p>';
+    let ChatContent =className === "outgoing" ?' <p></p> ':
+       ' <span class="material -symbols-outlined">smart_toy</span><p></p>';
         chatLi.innerHTML=ChatContent;
+        chatLi.querySelector("p").textContent =message;
         return chatLi;
 }
 const generateResponce =(incommingChatLi) =>{
@@ -37,6 +39,7 @@ const generateResponce =(incommingChatLi) =>{
 const handleChat = ()=>{
     userMessege = chatInput.value.trim()
     if (!userMessege)return;
+    chatInput.value ="";
 
     Chatbox.appendChild(createChatLi(userMessege,"outgoing"));
     Chatbox.scrollTo(0,Chatbox.scrollHeight)
@@ -48,4 +51,5 @@ const handleChat = ()=>{
         generateResponce(incommingChatLi);
     },600)
 }
+ChatToggler.addEventListener("click",()=>document.body.classList.toggle("show-Chatbot"));
 sendChatBtn.addEventListener("click" ,handleChat)
