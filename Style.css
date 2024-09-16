@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -31,7 +31,7 @@ body{
 .Chatbot .Chatbox{
     height: 310px;
     overflow-y: auto;
-    padding: 15px 20px 70px;
+    padding: 30px 20px 70px;
 }
 .Chatbox .chat{
     display: flex;
@@ -56,8 +56,39 @@ body{
     height: 32px;
     width: 32px;
     color: white;
+    align-self: flex-end;
     background: #724ae8;
     text-align: center;
     line-height: 32px;
     border-radius: 4px;
+    margin: 0 10px 7px 0;
 }
+.Chatbot .chat-input{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    background: white;
+    padding: 5px 20px;
+    border-top:1px solid #ccc;
+}
+.chat-input textarea{
+    height: 55px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 0.95rem;
+    resize: none;
+    padding: 16px 15px 16px 0;
+}
+.chat-input span{
+    align-self: flex-end;
+    height: 55px;
+    line-height: 55px;
+    color: #724ae8;
+    font-size: 1.35rem;
+    cursor: pointer;
+    visibility: hidden;
+}
+.chat-input textarea:valid span
