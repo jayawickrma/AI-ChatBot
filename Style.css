@@ -37,6 +37,7 @@ body{
     background: #724ae8;
     padding: 16px 0;
     text-align: center;
+    position: relative;
 }
 .Chatbot header h2{
     color: #fff;
@@ -129,4 +130,28 @@ body{
 }
 .Chatbot-toggler span:last-child{
     opacity: 0;
+}
+.Chatbot header span{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    color: white;
+    cursor: pointer;
+    display: none;
+    transform: translateY(-50%);
+}
+@media (max-width: 490px) {
+    .Chatbot{
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+    .Chatbot.Chatbox{
+        height :90%
+    }
+    .Chatbot header span{
+        display: block;
+    }
 }
