@@ -27,6 +27,12 @@ body{
     opacity: 1;
     pointer-events: auto;
 }
+.show-Chatbot .Chatbot-toggler span:last-child{
+    opacity: 1;
+}
+.show-Chatbot .Chatbot-toggler span:first-child{
+    opacity: 0;
+}
 .Chatbot header{
     background: #724ae8;
     padding: 16px 0;
