@@ -6,7 +6,7 @@ const chtbotCloseBtn =document.querySelector(".close-btn")
 let userMessege;
 
 const API_KEY ="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";
-
+const inputInitHeight =chatInput.scrollHeight;
 const createChatLi =(message ,className) =>{
     const chatLi =document.createElement("li")
     chatLi.classList.add("chat",className);
@@ -53,6 +53,11 @@ const handleChat = ()=>{
         generateResponce(incommingChatLi);
     },600)
 }
+
+chatInput.addEventListener("input",()=>{
+    chatInput.style.height=`${inputInitHeight}px`;
+    chatInput.style.height=`${chatInput.scrollHeight}px`;
+});
 ChatToggler.addEventListener("click",()=>document.body.classList.toggle("show-Chatbot"));
 sendChatBtn.addEventListener("click" ,handleChat);
 chtbotCloseBtn.addEventListener("click",() =>document.body.classList.remove("show-Chatbot"))
