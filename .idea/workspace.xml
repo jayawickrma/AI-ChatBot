@@ -61,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726497721031</updated>
-      <workItem from="1726497722297" duration="10746000" />
+      <workItem from="1726497722297" duration="13188000" />
     </task>
     <task id="LOCAL-00001" summary="first step">
       <option name="closed" value="true" />
@@ -143,7 +143,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726506762717</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="linked api">
+      <option name="closed" value="true" />
+      <created>1726508591835</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1726508591835</updated>
+    </task>
+    <task id="LOCAL-00012" summary="adding api">
+      <option name="closed" value="true" />
+      <created>1726509572269</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1726509572269</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +171,8 @@
     <MESSAGE value="adding css" />
     <MESSAGE value="css done and started js" />
     <MESSAGE value="adding js" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding js" />
+    <MESSAGE value="linked api" />
+    <MESSAGE value="adding api" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding api" />
   </component>
 </project>

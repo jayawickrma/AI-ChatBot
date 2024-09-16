@@ -2,7 +2,8 @@ const sendChatBtn =document.querySelector(".chat-input span");
 const chatInput =document.querySelector(".chat-input textarea");
 const Chatbox=document.querySelector(".Chatbox")
 let userMessege;
-const API_KEY ="";
+
+const API_KEY ="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";
 
 const createChatLi =(message ,className) =>{
     const chatLi =document.createElement("li")
@@ -12,8 +13,9 @@ const createChatLi =(message ,className) =>{
         chatLi.innerHTML=ChatContent;
         return chatLi;
 }
-const generateResponce =() =>{
+const generateResponce =(incommingChatLi) =>{
     const API_URL = "https://api.openai.com/v1/chat/completions";
+    const messageElement=incommingChatLi.querySelector("p")
 
     const requestOptions={
         method:"POST",
@@ -26,16 +28,24 @@ const generateResponce =() =>{
             messages:[{role:"user",content:userMessege}]
         })
     }
+    fetch(API_URL,requestOptions).then(res =>res.json()).then(data =>{
+        messageElement.textContent = data.choices[0].message.content;
+    }).catch((error)=>{
+        messageElement.textContent = "Ooops! something went wrong. Please try again.";
+    }).finally(() =>Chatbox.scrollTo(0,Chatbox.scrollHeight));
 }
 const handleChat = ()=>{
     userMessege = chatInput.value.trim()
     if (!userMessege)return;
 
     Chatbox.appendChild(createChatLi(userMessege,"outgoing"));
+    Chatbox.scrollTo(0,Chatbox.scrollHeight)
 
     setTimeout(()=>{
-        Chatbox.appendChild(createChatLi("Thinking...","incomming"));
-        generateResponce();
+        const incommingChatLi=createChatLi("Thinking...","incomming")
+        Chatbox.appendChild(incommingChatLi);
+        Chatbox.scrollTo(0,Chatbox.scrollHeight)
+        generateResponce(incommingChatLi);
     },600)
 }
 sendChatBtn.addEventListener("click" ,handleChat)
