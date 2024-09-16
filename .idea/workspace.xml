@@ -61,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726497721031</updated>
-      <workItem from="1726497722297" duration="2801000" />
+      <workItem from="1726497722297" duration="5191000" />
     </task>
     <task id="LOCAL-00001" summary="first step">
       <option name="closed" value="true" />
@@ -71,7 +71,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726499742155</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adding css">
+      <option name="closed" value="true" />
+      <created>1726500537832</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726500537832</updated>
+    </task>
+    <task id="LOCAL-00003" summary="adding css">
+      <option name="closed" value="true" />
+      <created>1726501880612</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726501880612</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,6 +96,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first step" />
-    <option name="LAST_COMMIT_MESSAGE" value="first step" />
+    <MESSAGE value="adding css" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding css" />
   </component>
 </project>
