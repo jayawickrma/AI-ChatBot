@@ -60,6 +60,10 @@ body{
     border-radius: 10px 10px 0 10px ;
     background: #724ae8;
 }
+.Chatbox .chat p.error{
+        color:#721c24;
+    background: white;
+}
 .Chatbox .incomming p{
     color: #000;
     background: white;

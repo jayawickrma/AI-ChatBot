@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d1fc0c63-88da-452d-8def-0e74beb54fd3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726497721031</updated>
-      <workItem from="1726497722297" duration="13188000" />
+      <workItem from="1726497722297" duration="14778000" />
     </task>
     <task id="LOCAL-00001" summary="first step">
       <option name="closed" value="true" />
@@ -159,7 +161,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726509572269</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="responce body">
+      <option name="closed" value="true" />
+      <created>1726511060447</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1726511060447</updated>
+    </task>
+    <task id="LOCAL-00014" summary="responce body">
+      <option name="closed" value="true" />
+      <created>1726511970701</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1726511970701</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +191,7 @@
     <MESSAGE value="adding js" />
     <MESSAGE value="linked api" />
     <MESSAGE value="adding api" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding api" />
+    <MESSAGE value="responce body" />
+    <option name="LAST_COMMIT_MESSAGE" value="responce body" />
   </component>
 </project>
