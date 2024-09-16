@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1fc0c63-88da-452d-8def-0e74beb54fd3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-    </list>
+    <list default="true" id="d1fc0c63-88da-452d-8def-0e74beb54fd3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726497721031</updated>
-      <workItem from="1726497722297" duration="15097000" />
+      <workItem from="1726497722297" duration="15424000" />
     </task>
     <task id="LOCAL-00001" summary="first step">
       <option name="closed" value="true" />
@@ -183,7 +180,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726512662598</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="responce body">
+      <option name="closed" value="true" />
+      <created>1726512979826</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1726512979826</updated>
+    </task>
+    <task id="LOCAL-00017" summary="done something have to do">
+      <option name="closed" value="true" />
+      <created>1726513234584</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1726513234584</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +211,7 @@
     <MESSAGE value="linked api" />
     <MESSAGE value="adding api" />
     <MESSAGE value="responce body" />
-    <option name="LAST_COMMIT_MESSAGE" value="responce body" />
+    <MESSAGE value="done something have to do" />
+    <option name="LAST_COMMIT_MESSAGE" value="done something have to do" />
   </component>
 </project>
