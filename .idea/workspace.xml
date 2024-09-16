@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1fc0c63-88da-452d-8def-0e74beb54fd3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -60,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726497721031</updated>
-      <workItem from="1726497722297" duration="5972000" />
+      <workItem from="1726497722297" duration="8083000" />
     </task>
     <task id="LOCAL-00001" summary="first step">
       <option name="closed" value="true" />
@@ -102,7 +104,31 @@
       <option name="project" value="LOCAL" />
       <updated>1726503181878</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adding css">
+      <option name="closed" value="true" />
+      <created>1726503773152</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726503773152</updated>
+    </task>
+    <task id="LOCAL-00007" summary="css done and started js">
+      <option name="closed" value="true" />
+      <created>1726503914095</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1726503914095</updated>
+    </task>
+    <task id="LOCAL-00008" summary="adding js">
+      <option name="closed" value="true" />
+      <created>1726504312967</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1726504312967</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +138,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first step" />
     <MESSAGE value="adding css" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding css" />
+    <MESSAGE value="css done and started js" />
+    <MESSAGE value="adding js" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding js" />
   </component>
 </project>
