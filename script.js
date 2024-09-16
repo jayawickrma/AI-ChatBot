@@ -42,6 +42,7 @@ const handleChat = ()=>{
     userMessege = chatInput.value.trim()
     if (!userMessege)return;
     chatInput.value ="";
+    chatInput.style.height =`${inputInitHeight}px`;
 
     Chatbox.appendChild(createChatLi(userMessege,"outgoing"));
     Chatbox.scrollTo(0,Chatbox.scrollHeight)
@@ -54,9 +55,11 @@ const handleChat = ()=>{
     },600)
 }
 
-chatInput.addEventListener("input",()=>{
-    chatInput.style.height=`${inputInitHeight}px`;
-    chatInput.style.height=`${chatInput.scrollHeight}px`;
+chatInput.addEventListener("keydown",(e)=>{
+   if (e.key ==="Enter" && window.innerWidth>800){
+       e.preventDefault();
+       handleChat();
+   }
 });
 ChatToggler.addEventListener("click",()=>document.body.classList.toggle("show-Chatbot"));
 sendChatBtn.addEventListener("click" ,handleChat);
