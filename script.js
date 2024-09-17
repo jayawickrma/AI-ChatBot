@@ -5,7 +5,7 @@ const ChatToggler=document.querySelector(".Chatbot-toggler");
 const chtbotCloseBtn =document.querySelector(".close-btn")
 let userMessege;
 
-const API_KEY ="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";
+// const API_KEY ="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";
 const inputInitHeight =chatInput.scrollHeight;
 const createChatLi =(message ,className) =>{
     const chatLi =document.createElement("li")
