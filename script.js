@@ -17,7 +17,7 @@ const createChatLi =(message ,className) =>{
         return chatLi;
 }
 const generateResponce =(incommingChatLi) =>{
-    // const API_URL = "https://api.openai.com/v1/chat/completions";
+    const API_URL = "https://api.openai.com/v1/chat/completions";
     const messageElement=incommingChatLi.querySelector("p")
 
     const requestOptions={
