@@ -5,7 +5,7 @@ const ChatToggler=document.querySelector(".Chatbot-toggler");
 const chtbotCloseBtn =document.querySelector(".close-btn")
 let userMessege;
 
-// const API_KEY ="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";
+const API_KEY ="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";
 const inputInitHeight =chatInput.scrollHeight;
 const createChatLi =(message ,className) =>{
     const chatLi =document.createElement("li")
@@ -17,7 +17,7 @@ const createChatLi =(message ,className) =>{
         return chatLi;
 }
 const generateResponce =(incommingChatLi) =>{
-    // const API_URL = "https://api.openai.com/v1/chat/completions";
+    const API_URL = "https://api.openai.com/v1/chat/completions";
     const messageElement=incommingChatLi.querySelector("p")
 
     const requestOptions={
@@ -48,7 +48,7 @@ const handleChat = ()=>{
     Chatbox.scrollTo(0,Chatbox.scrollHeight)
 
     setTimeout(()=>{
-        const incommingChatLi=createChatLi("Thinking...","incomming")
+        const incommingChatLi=createChatLi("generating your answer...","incomming")
         Chatbox.appendChild(incommingChatLi);
         Chatbox.scrollTo(0,Chatbox.scrollHeight)
         generateResponce(incommingChatLi);
