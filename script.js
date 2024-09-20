@@ -7,6 +7,7 @@ let userMessege;
 
 const API_KEY ="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";
 const inputInitHeight =chatInput.scrollHeight;
+
 const createChatLi =(message ,className) =>{
     const chatLi =document.createElement("li")
     chatLi.classList.add("chat",className);
